@@ -24,10 +24,6 @@ This project develops and evaluates multiple machine learning models to classify
 | SVM (RBF) | 95.9% | 100% | 89.1% | 94.2%
 | Decision Tree | 91.8% | 100% | 78.1% | 87.7%
 
-**Best Model:** Logistic Regression with optimized threshold (0.24)
-- **At threshold 0.24:** 98% accuracy, 98% recall, only 1 false negative
-- **At threshold 0.05:** 100% recall (zero false negatives) with acceptable precision trade-off
-
 ---
 
 ## Dataset
