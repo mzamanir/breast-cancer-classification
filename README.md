@@ -2,20 +2,20 @@
 
 A machine learning project for binary classification of breast tumors (Malignant vs. Benign) using the the Wisconsin Breast Cancer Dataset.
 
-## 📋 Project Overview
+## Project Overview
 
 This project develops and evaluates multiple machine learning models to classify breast cancer tumors based on cell nucleus measurements from fine needle aspirate (FNA) images. The analysis emphasizes **high recall** for malignant cases, as false negatives carry severe medical and financial consequences in insurance contexts.
 
 ### Key Features:
-- ✅ Comprehensive exploratory data analysis (EDA)
-- ✅ Multiple model comparison (Logistic Regression, SVM, Decision Tree, Random Forest)
-- ✅ Advanced threshold tuning to maximize recall
-- ✅ Feature importance analysis
-- ✅ Business-focused evaluation (precision-recall curves, cost-benefit analysis)
+- Comprehensive exploratory data analysis (EDA)
+- Multiple model comparison (Logistic Regression, SVM, Decision Tree, Random Forest)
+- Advanced threshold tuning to maximize recall
+- Feature importance analysis
+- Business-focused evaluation (precision-recall curves, cost-benefit analysis)
 
 ---
 
-## 🎯 Key Results
+## Key Results
 
 | Model | Accuracy | Recall (Malignant)
 |-------|----------|-------------------
@@ -30,7 +30,7 @@ This project develops and evaluates multiple machine learning models to classify
 
 ---
 
-## 🔬 Dataset
+## Dataset
 
 **Source:** Wisconsin Breast Cancer Dataset  
 **Samples:** 569 (357 Benign, 212 Malignant)  
@@ -46,7 +46,7 @@ This project develops and evaluates multiple machine learning models to classify
 
 ---
 
-## 📊 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 ```bash
@@ -72,7 +72,7 @@ jupyter notebook notebooks/analysis.ipynb
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 ### 1. Exploratory Data Analysis (EDA)
 - Class distribution analysis (62.7% Benign, 37.3% Malignant)
@@ -108,7 +108,7 @@ Threshold tuning is essential in medical applications, where missing a malignant
 
 ---
 
-## 📈 Model Evaluation Metrics
+## Model Evaluation Metrics
 
 ### Primary Metrics Used
 - **Recall (Sensitivity):** Proportion of malignant cases correctly identified  
@@ -121,11 +121,11 @@ In medical and insurance contexts, **false negatives carry significantly higher 
 - A missed cancer diagnosis can delay treatment, worsen outcomes, and increase long-term claim cost  
 - A false positive generally leads to additional testing—much lower impact  
 
-➡️ **Conclusion:** The model must prioritize high recall to minimize false negatives.
+**Conclusion:** The model must prioritize high recall to minimize false negatives.
 
 ---
 
-## 📝 Key Findings
+## Key Findings
 
 1. **Logistic Regression delivered the strongest performance**, achieving ~97% accuracy and high malignant recall.
 2. **Threshold tuning is essential:**  
@@ -142,7 +142,7 @@ In medical and insurance contexts, **false negatives carry significantly higher 
    - or *maximum safety mode* (threshold=0.10) for clinical scenarios requiring zero false negatives.
 
 ---
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
