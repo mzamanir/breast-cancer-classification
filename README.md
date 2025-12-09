@@ -38,7 +38,6 @@ This project develops and evaluates multiple machine learning models to classify
 - **Standard error** (10 features): Variability in measurements
 - **Worst values** (10 features): Largest/most severe cell measurements
 
-**Key Finding:** "Worst" features (e.g., `concave points_worst`, `area_worst`, `radius_worst`) are most predictive of malignancy.
 
 ---
 
