@@ -1,2 +1,3 @@
-# breast-cancer-classification
-Simple breast cancer classification task using machine learning.
+# Breast Cancer Classification
+
+A machine learning project for binary classification of breast tumors (Malignant vs. Benign) using the 
