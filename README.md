@@ -131,14 +131,7 @@ In medical and insurance contexts, **false negatives carry significantly higher 
    - At threshold 0.50: recall = 94%  
    - At threshold 0.24: recall = 98%  
    - At threshold 0.05: **recall = 100%**, eliminating all false negatives.
-3. **"Worst" tumor measurements dominate predictive power**, consistent with medical knowledge:  
-   - concave points_worst  
-   - perimeter_worst  
-   - area_worst  
-4. **Feature importance is stable across models:** The same 5-6 features consistently rank highest across correlation analysis, Random Forest, and model coefficients.
-5. **Real-world readiness:**  
-   - The model can operate in either *balanced mode* (threshold=0.24)  
-   - or *maximum safety mode* (threshold=0.10) for clinical scenarios requiring zero false negatives.
+3.  **Feature importance is stable across models:** The same 5-6 features consistently rank highest across correlation analysis, Random Forest, and model coefficients.
 
 ---
 ## License
