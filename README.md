@@ -57,7 +57,7 @@ pip
 ### Setup
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/breast-cancer-classification.git
+git clone https://github.com/mzamanir/breast-cancer-classification.git
 cd breast-cancer-classification
 
 # Install dependencies
