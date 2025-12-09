@@ -141,6 +141,9 @@ In medical and insurance contexts, **false negatives carry significantly higher 
    - perimeter_worst  
    - area_worst  
 4. **Feature importance is stable across models:** The same 5-6 features consistently rank highest across correlation analysis, Random Forest, and model coefficients.
+5. **Real-world readiness:**  
+   - The model can operate in either *balanced mode* (threshold=0.24)  
+   - or *maximum safety mode* (threshold=0.10) for clinical scenarios requiring zero false negatives.
 
 ---
 ## License
